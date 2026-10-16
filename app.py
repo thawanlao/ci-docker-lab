@@ -5,7 +5,7 @@ from http.server import BaseHTTPRequestHandler, HTTPServer
 
 def get_response():
     return {
-        "message": "Wrong Message!",
+        "message": "Hello CI/CD Version 2!",
         "version": "2.0.0",
         "status": "running"
     }
