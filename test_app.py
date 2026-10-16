@@ -9,14 +9,14 @@ class TestApplication(unittest.TestCase):
         data = get_response()
         self.assertEqual(
             data["message"],
-            "Hello CI/CD Pipeline!"
+            "Hello CI/CD Pipeline 2!"
         )
 
     def test_version(self):
         data = get_response()
         self.assertEqual(
             data["version"],
-            "1.0.0"
+            "2.0.0"
         )
 
     def test_status(self):

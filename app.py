@@ -5,8 +5,8 @@ from http.server import BaseHTTPRequestHandler, HTTPServer
 
 def get_response():
     return {
-        "message": "Hello CI/CD Pipeline!",
-        "version": "1.0.0",
+        "message": "Hello CI/CD Pipeline 2!",
+        "version": "2.0.0",
         "status": "running"
     }
 
